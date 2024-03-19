@@ -1,6 +1,7 @@
 @IsTest
 public class AccountTriggerTest {
 
+    // Test account insertion
     @isTest static void testAccountInsert() {
         Test.startTest();
         INSERT new Account(Name = 'Test12345$');

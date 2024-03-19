@@ -1,5 +1,8 @@
 public class AccountTriggerHandler {
-	
+	/**
+	 * @description A common function to handle all operations to be done on insert of an account
+	 * @param newAccounts A list of accounts with newer values as provided by Trigger.new context variable. 
+	 */
     public void handleAfterInsert(List<Account> newAccounts) {
         List<Contact> contactsForAccount = new List<Contact>();
         
