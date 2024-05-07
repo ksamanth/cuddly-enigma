@@ -9,6 +9,7 @@ public class AccountTriggerHandler {
         for(Account account : newAccounts) {
         	contactsForAccount.add(new Contact(
             	LastName = account.Name,
+                FirstName = account.Name,
                 AccountId = account.Id
             ));   
         }
